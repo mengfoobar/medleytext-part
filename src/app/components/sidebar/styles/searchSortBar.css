@@ -1,0 +1,63 @@
+.container{
+    padding: 10px 0 0 15px;
+}
+
+.icon{
+    font-size: 16px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.input{
+    outline: none;
+    border: none;
+    user-select: none;
+}
+
+.searchContainer,
+.sortContainer{
+    position: absolute;
+    border-radius: 3px;
+    margin-left: -5px;
+    margin-top: 5px;
+    z-index: 10;
+    -webkit-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.81);
+    -moz-box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.81);
+    box-shadow: 0px 1px 12px -2px rgba(0,0,0,0.81);
+}
+
+.noResultsContainer{
+    min-height: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.searchContainer,
+.noResultsContainer{
+    width:380px;
+}
+
+.sortContainer{
+    padding-top: 8px;
+    width:200px;
+    min-height: 50px;
+    border:none;
+
+}
+
+.sortHeader{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menuItem{
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.menuItemCheck{
+    float: right;
+    font-size: 18px;
+}

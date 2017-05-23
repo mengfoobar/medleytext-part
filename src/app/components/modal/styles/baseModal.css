@@ -1,0 +1,41 @@
+
+.modalWindow{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%) !important;
+}
+
+.modal-body{
+    max-height: 520px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.modalWindow .modal-content{
+    border: none;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+
+
+.modalWindow .list-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+.modalWindow .input-group{
+    width: 100%;
+}
+
+.modalWindow.modal-large{
+    width:650px;
+
+}
+
+.modalWindow.modal-small{
+    width:520px;
+}
+

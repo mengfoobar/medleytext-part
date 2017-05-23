@@ -1,0 +1,226 @@
+.app{
+    background: #1D2A37;
+}
+
+.menubar{
+    background: #303c50;
+    border-right:1px solid #263040;
+}
+
+.menubar_icon{
+    color: #b3b3b3;
+}
+
+.menubar_icon:hover{
+    color: #303c50;
+    background: #d65c66;
+    border-color:#d65c66;
+}
+
+.menubar_icon_active{
+    color: #d65c66;
+    border-color:#d65c66;
+    background: #303c50;
+}
+
+
+.sidebar{
+    background:#2E3848;
+    border-right: 2px solid #1b2432;
+}
+
+.sidebarList_container::-webkit-scrollbar-track
+{
+    background-color: #3c495d;
+}
+
+.sidebarList_container::-webkit-scrollbar
+{
+    background-color: #3c495d;
+}
+
+.sidebarList_container::-webkit-scrollbar-thumb
+{
+    background-color: #bfbfbf;
+}
+
+.sidebarList_title,
+.sidebarList_icon{
+    color: #ECF0F1;
+}
+
+.sidebarList_icon:hover {
+    color: #d65c66;
+}
+
+.sidebarList_divider{
+    background: #e6e6e6
+}
+
+
+.sidebarList_item{
+    color: #ECF0F1;
+}
+
+.sidebarList_item_active{
+    border-color: #b3b3b3 !important;
+}
+
+.sidebarList_item:hover{
+    color: #ffffff;
+    background:#1d2430;
+    border-color: transparent !important;
+}
+
+.sidebarList_item_divider{
+    background: #dfdfdf;
+}
+
+.sidebarList_notebooks_empty,
+.sidebarList_notes_empty,
+.sidebarList_loading{
+    color:#dfdfdf;
+}
+
+
+
+
+
+.editorContainer::-webkit-scrollbar-track
+{
+    background-color: transparent;
+}
+
+.editorContainer::-webkit-scrollbar
+{
+    background-color: transparent;
+}
+
+.editorContainer::-webkit-scrollbar-thumb
+{
+    background-color: #bfbfbf;
+}
+
+
+
+.toolbar-icons {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.toolbar-divider div {
+    background: #f2f2f2;
+}
+
+.toolbar-icon{
+    color: #f2f2f2;
+}
+
+.toolbar-icon:hover,
+.toolbar-icon.active {
+    color: #d65c66;
+    border-color: #d65c66;
+}
+
+.toolbar-icon:hover i,
+.toolbar-icon.active i {
+    color: #d65c66;
+}
+
+
+.searchContainer,
+.sortContainer,
+.noResultsContainer{
+    background-color: #303c50;
+}
+
+.noResultsContainer{
+    color:#dfdfdf;
+}
+
+.searchSortContainer_input{
+    background: transparent;
+    color: #dfdfdf;
+}
+
+.searchSortBar_icon:hover{
+    color: #d65c66;
+}
+
+.sort_header,
+.searchSortBar_icon{
+    color: #bfbfbf;
+}
+
+.sort_menuItem{
+    color:#bfbfbf;
+}
+.sort_menuItem:hover{
+    color:#ffffff;
+    background: #1d2430;
+}
+
+
+
+
+
+.DarkCherry .react-autosuggest__input{
+    background: transparent;
+}
+
+.DarkCherry .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    background-color: #354c64;
+}
+
+.DarkCherry .react-autosuggest__input {
+    color: #f2f2f2
+}
+
+.DarkCherry .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.DarkCherry .react-autosuggest__suggestions-list {
+    color: #f2f2f2;
+}
+
+.DarkCherry .react-autosuggest__suggestion--focused {
+    background-color:#698bb0;
+}
+
+
+
+
+
+.DarkCherry .DraftEditor-root {
+    color: #F0F0F0;
+}
+
+
+.DarkCherry .DraftEditor-root blockquote {
+    border-left: 5px solid #eee;
+    color: #eee;
+}
+
+.DarkCherry .DraftEditor-root .public-DraftStyleDefault-pre {
+    background: #e6e6e6;
+}
+
+
+.DarkCherry .notesList .list.empty,
+.DarkCherry .notebooksList .list-container.loading {
+    color: #bfbfbf;
+}
+
+.DarkCherry .searchBar .row .form-group .input-box{
+    color:#1b2432;
+    background-color:#F0F0F0;
+    border: solid 1px #F0F0F0;
+}
+
+.DarkCherry .searchBar .row .form-group .icon-clear-input{
+    color: #737373;
+}
+
+.DarkCherry .searchBar .row .form-group .icon-clear-input:hover{
+    color: #d65c66;
+}

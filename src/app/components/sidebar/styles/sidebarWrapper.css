@@ -1,0 +1,81 @@
+.sidebar {
+    width: 280px;
+    height: 100%;
+    float: left;
+}
+
+.sidebar_hidden{
+    width: 0;
+}
+
+
+.sidebarList{
+    overflow-y:hidden;
+    padding-top:28px;
+    padding-left: 0;
+    padding-right: 0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-left:0;
+    margin-right: 0;
+}
+
+.sidebarList ul{
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarList li{
+    list-style: none;
+}
+
+.title{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    user-select: none;
+}
+
+.icon{
+    font-size: 30px;
+    padding-top: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.10s linear;
+    float:right;
+}
+
+.divider{
+    height: 1px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.noteItem_divider{
+    height: 1px;
+    width: 92%;
+    margin: 0 auto;
+    position: relative;
+    top: 1px;
+}
+
+.noteItem_divider_hidden{
+    background: transparent;
+}
+
+.listContainer{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.listContainer::-webkit-scrollbar
+{
+    width: 6px;
+}
+

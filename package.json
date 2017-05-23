@@ -1,0 +1,47 @@
+{
+  "name": "MedleyText",
+  "version": "0.9.6",
+  "description": "Take programming notes with style",
+  "author": {
+    "name":"Hiro Labs",
+    "email":"info@medleytext.net"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "dist": "build --win --mac --linux --x64 --ia32",
+    "dist-mac":"build --mac --x64"
+  },
+  "build": {
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://s3.amazonaws.com/medleytext/updates/current"
+      }
+    ],
+    "appId": "public.app-category.developer-tool",
+    "mac": {
+      "category": "public.app-category.developer-tool",
+      "target": [
+        "zip",
+        "dmg"
+      ]
+    },
+    "nsis": {
+      "perMachine": true
+    },
+    "linux":{
+      "target":[
+        "AppImage",
+        "deb"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "1.6.2",
+    "electron-builder": "15.1.1"
+  },
+  "dependencies": {
+    "electron-analytics": "^0.1.1"
+  }
+}

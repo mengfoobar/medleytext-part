@@ -1,0 +1,213 @@
+.app{
+    background: #ffffff;
+}
+
+.menubar{
+    background: #F8F8F8;
+    border-right:1px solid #ECECEC;
+}
+
+.menubar_icon{
+    color: #808080;
+}
+
+.menubar_icon:hover{
+    color: #ffffff;
+    background: #f29a0d;
+    border-color:#f29a0d;
+}
+
+.menubar_icon_active{
+    color: #f29a0d;
+    border-color:#f29a0d;
+    background: #ffffff;
+}
+
+
+.sidebar{
+    background: #ffffff;
+    border-right: 2px solid #ECECEC;
+}
+
+.sidebarList_container::-webkit-scrollbar-track
+{
+    background-color: #f2f2f2;
+}
+
+.sidebarList_container::-webkit-scrollbar
+{
+    background-color: #f2f2f2;
+}
+
+.sidebarList_container::-webkit-scrollbar-thumb
+{
+    background-color: #d9d9d9;
+}
+
+.sidebarList_title,
+.sidebarList_icon{
+    color: #4a4a4a;
+}
+
+.sidebarList_icon:hover {
+    color: #f29a0d;
+}
+
+.sidebarList_divider{
+    background: #e6e6e6;
+}
+
+.sidebarList_item{
+    color: #333333;
+}
+
+.sidebarList_item_active{
+    border-color: #bfbfbf !important;
+}
+
+.sidebarList_item:hover{
+    color: #ffffff;
+    background:#f29a0d;
+    border-color: transparent !important;
+}
+
+.sidebarList_item_divider{
+    background: #dfdfdf;
+}
+
+.sidebarList_item_icon:hover{
+    color: #ffffff
+}
+
+.sidebarList_notebooks_empty,
+.sidebarList_notes_empty,
+.sidebarList_loading{
+    color:#4a4a4a;
+}
+
+
+.editorContainer::-webkit-scrollbar-track
+{
+    background-color: transparent;
+}
+
+.editorContainer::-webkit-scrollbar
+{
+    background-color: transparent;
+}
+
+.editorContainer::-webkit-scrollbar-thumb
+{
+    background-color: #a6a6a6;
+}
+
+
+.toolbar-icons {
+    border-bottom: 1px solid #8c8c8c;
+}
+
+.toolbar-divider div {
+    background: #808080;
+}
+
+.toolbar-icon{
+    color: #4A4A4A;
+}
+
+.toolbar-icon:hover,
+.toolbar-icon.active {
+    color: #f29a0d;
+    border-color: #f29a0d;
+}
+
+.toolbar-icon:hover i,
+.toolbar-icon.active i{
+    color: #f29a0d;
+}
+
+.searchContainer,
+.sortContainer,
+.noResultsContainer{
+    background-color: #ffffff;
+}
+
+.searchContainer input{
+    background: transparent;
+}
+
+.searchSortBar_icon:hover{
+    color: #f29a0d;
+}
+
+.sort_header,
+.searchSortBar_icon{
+    color: #8c8c8c;
+}
+
+.sort_menuItem:hover{
+    color:#ffffff;
+    background: #f29a0d;
+}
+
+
+
+/**
+    Language Auto Suggest
+ */
+.LightCitrus .react-autosuggest__input{
+    background: transparent;
+}
+
+.LightCitrus .react-autosuggest__container--open .react-autosuggest__suggestions-container{
+    background-color: #ffffff;
+}
+
+.LightCitrus .react-autosuggest__input {
+    color: #4A4A4A;
+}
+
+.LightCitrus .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+    -webkit-box-shadow: 1px 7px 20px -3px rgba(0,0,0,0.69);
+    -moz-box-shadow: 1px 7px 20px -3px rgba(0,0,0,0.69);
+    box-shadow: 1px 7px 20px -3px rgba(0,0,0,0.69);
+}
+
+.LightCitrus .react-autosuggest__suggestions-list {
+    color: #4A4A4A;
+}
+
+.LightCitrus .react-autosuggest__suggestion--focused {
+    background-color:#f29a0d;
+}
+
+
+
+.LightCitrus .DraftEditor-root {
+    color: #383838;
+}
+
+
+.LightCitrus .DraftEditor-root blockquote {
+    border-left: 5px solid #34495e;
+    color: #383838;
+}
+
+.LightCitrus .DraftEditor-root .public-DraftStyleDefault-pre {
+    background: rgb(251, 250, 248);
+}
+
+
+
+.LightCitrus .searchBar .row .form-group .input-box{
+    color:#1b2432;
+    background-color:#F0F0F0;
+    border: solid 1px #F0F0F0;
+}
+
+.LightCitrus .searchBar .row .form-group .icon-clear-input{
+    color: #8c8c8c;
+}
+
+.LightCitrus .searchBar .row .form-group .icon-clear-input:hover{
+    color: #f29a0d;
+}

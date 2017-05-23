@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+}
+
+.list{
+    margin-top: 100px;
+}
+
+.row{
+    text-align:center;
+}
+
+.msg{
+    padding-top: 23px;
+    font-size: 18px;
+}
+
+.icon span{
+    font-size: 60px;
+}
+
+

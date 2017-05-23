@@ -1,0 +1,9 @@
+{
+  "platform": "desktop",
+  "autoUpdateUrl":{
+    "host":"http://medleytext.net:3008",
+    "osx":"http://medleytext.net:3008/updates/latest",
+    "win":"https://s3.amazonaws.com/medleytext/updates/win",
+    "linux":"http://medleytext.net:3008/updates/latest"
+  }
+}

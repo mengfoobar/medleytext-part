@@ -1,0 +1,25 @@
+.menubar {
+    width: 60px;
+    position: relative;
+    padding: 0;
+    height:100%;
+    padding-top: 20px;
+    float: left;
+}
+
+.menubar_row {
+    margin: 0;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.menubar_icon{
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.10s linear;
+    border: solid 2px transparent;
+    border-radius: 8px;
+}
+
+
